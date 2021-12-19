@@ -37,7 +37,7 @@ a {
 
 nav {
     font-size: small;
-    
+
     margin: auto;
     padding: 0px 0px 0px 20px;
     font-family: Source Sans Pro;
@@ -55,7 +55,7 @@ li {
 ul {
     
     display: inline-block;
-    padding: 2px;
+    padding: 0px;
 }
 
 
@@ -68,6 +68,7 @@ h2 {
 h5 {
     color: #dd3232;
     font-weight: bold;
+    font-size:large
 }
 
 #banner {
@@ -93,11 +94,30 @@ section {
     display: inline-block;
     width: 320px;
     margin: auto;
-    padding: 1px 1px 1px 10px;
+    padding: 1px 10px 1px 10px;
     
 }
 
 .article {
     border-radius: 5px;
     
+    
+}
+
+
+
+img {
+        
+    color: black;
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
