@@ -17,6 +17,8 @@ body {
     
 }
 
+
+
 h1:hover {
     transform: scale(1.2);
   }
@@ -38,7 +40,7 @@ h1:hover {
 header {
     font-family: Abril Fatface;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
 
     color: black;
     animation: fadeIn linear 5s;
@@ -50,7 +52,7 @@ header {
 
 .date {
     text-align: left;
-    font-family:'Times New Roman', Times, serif;
+    font-family: source sans pro;
     font-size: small;
     
 }
@@ -62,36 +64,34 @@ a {
 }
 
 nav {
-    font-size: small;
-
-    margin: auto;
-    padding: 0px 0px 0px 20px;
-    font-family: Source Sans Pro;
     
+    font-size: small;
+    margin: auto;
+
 }
 
+ul {
+    
+    margin: auto;
+}
 
 
 
 li {
     
     display: inline-block;
-    font-family: source sans-pro;
-    padding: 5px;
+    font-family: source sans pro;
+    padding: 9px;
     
 }
 
-ul {
-    
-    display: inline-block;
-    padding: 0px;
-}
+
 
 
 
 h2 {
     font-family: roboto slab;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 h5 {
