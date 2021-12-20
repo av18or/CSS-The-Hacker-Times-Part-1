@@ -127,12 +127,23 @@ section {
     
 }
 
+.extra-articles{
+    display: inline-block;
+}
+
 .article {
     border-radius: 5px;
-    
+   
     
 }
 
+.more {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+}
 
 
 img {
