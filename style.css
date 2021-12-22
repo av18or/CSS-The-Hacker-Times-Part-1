@@ -176,7 +176,7 @@ img {
     .three-articles{
         width: 700px;
         display:flex;
-        justify-content: space-evenly
+        justify-content: space-between;
 
         
 
@@ -184,14 +184,14 @@ img {
 
    .grid1 {
    
-       width: 180px;
+       width: 200px;
    }
 
    .grid2 {
 
-       width: 180px;
+       width: 200px;
    }
 
    .grid3 {
-       width: 180px;
+       width: 200px;
    }
